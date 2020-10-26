@@ -11,12 +11,12 @@ model bernulli
   //to be controlled:
   parameter Modelica.SIunits.Height h2 = 0;
   parameter Modelica.SIunits.Radius r2 = 0.1;
-  parameter Real k1 = 0.46;
-  parameter Real k2 = 0.57;
-  parameter Real rLin1 = 1.63;
-  parameter Real rLin2 = -1.63;  
-  parameter Real hLin1 = 3.76;
-  parameter Real hLin2 = 3.76;  
+  parameter Real k1 = 0.40;
+  parameter Real k2 = 0.63;
+  parameter Real rLin1 = 1.85;
+  parameter Real rLin2 = -1.85;
+  parameter Real hLin1 = 3.88;
+  parameter Real hLin2 = 3.88;
   //to be calculated:
   Modelica.SIunits.Area s2;
   Modelica.SIunits.Pressure p2;
